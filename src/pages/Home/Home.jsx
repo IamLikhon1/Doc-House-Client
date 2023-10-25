@@ -1,3 +1,4 @@
+
 import Banner from "./Banner";
 import Contact from "./Contact";
 import Expert from "./Expert/Expert";
@@ -9,11 +10,11 @@ const Home = () => {
     return (
         <div>
             <Banner/>
-            <Services/>
+            {/* <Services/>
             <Information/>
             <Testimonial/>
             <Expert/>
-            <Contact/>
+            <Contact/> */}
         </div>
     );
 };
